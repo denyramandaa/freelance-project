@@ -38,9 +38,22 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/tailwindcss'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  // https://nuxtjs.org/docs/2.x/directory-structure/components/
+  // Mengaktifkan impor otomatis komponen-komponen
+  // Sekarang nuxt hanya memindai komponen  di direktori components/_v2/
+  // Komponen2 lain di luar kedua direktori tsb tetap perlu impor manual
+  components: [
+    {
+      path: '~/components/',
+      prefix: 'mag',
+      extensions: ['vue']
+    }
+  ],
 }

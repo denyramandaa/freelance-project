@@ -1,6 +1,6 @@
 <template>
   <div>
-    _slug products
+    products/{{$route.params.slug}}
   </div>
 </template>
 
