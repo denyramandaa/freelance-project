@@ -3,16 +3,16 @@
     <div class="w-full bg-gray-500 text-white flex items-center justify-center mb-8 h-48">
       {{$route.params.slug ? $route.params.slug : 'MACHINARY'}} {{product.title}}
     </div>
-    <div class="max-w-6xl mx-auto mb-8 px-6 lg:px-0">
+    <div class="w-full max-w-6xl mx-auto mb-8 px-6 lg:px-0">
       {{product.description}}
     </div>
 
-    <div class="max-w-6xl mx-auto flex items-center justify-end mb-8 px-6 lg:px-0">
+    <div class="w-full max-w-6xl mx-auto flex items-center justify-end mb-8 px-6 lg:px-0">
       Sort by: 
       <div class="ml-2 bg-gray-500 w-12 rounded h-6" />
     </div>
 
-    <div class="max-w-6xl mx-auto grid grid-cols-2 gap-4 px-6 lg:px-0 lg:grid-cols-4 lg:gap-8 mb-8">
+    <div class="w-full max-w-6xl mx-auto grid grid-cols-2 gap-4 px-6 lg:px-0 lg:grid-cols-4 lg:gap-8 mb-8">
       <div class="border rounded text-grey-500 bg-blue-500 justify-center h-32 items-center flex" v-for="i in 20" :key="i">
         {{ i }}
       </div>
