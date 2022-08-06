@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-6xl mx-auto">
+  <div class="w-full max-w-6xl mx-auto">
 
     <div class="mb-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
       <div>

@@ -35,23 +35,17 @@ export default {
   name: 'DefaultHeader',
   data: () => ({
     menus: [{
-      name: 'about us',
-      url: 'about-us'
+      name: 'home',
+      url: 'home'
     },{
-      name: 'our product',
-      url: 'our-product'
+      name: 'coorporate',
+      url: 'coorporate'
     },{
-      name: 'why us?',
-      url: 'why-us'
+      name: 'product',
+      url: 'product'
     },{
-      name: 'gallery',
-      url: 'our-gallery'
-    },{
-      name: 'articles',
-      url: 'articles'
-    },{
-      name: 'contact us',
-      url: 'contact-us'
+      name: 'help',
+      url: 'help'
     }],
     openMenu: false,
     scrolled: false
