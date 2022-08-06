@@ -1,11 +1,4 @@
-<template>
-  <div>
-    products/{{$route.params.slug}}
-  </div>
-</template>
-
 <script>
-export default {
-  name: 'IndexPage'
-}
+import HalamanProducts from '~/pages/products/index'
+export default HalamanProducts
 </script>
